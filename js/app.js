@@ -133,7 +133,7 @@ function carritoHTML() {
 
 function sincronizarStorage() {
 	localStorage.setItem('carrito', JSON.stringify(articulosCarrito));
-}
+} 
 
 //Elimina los cursos del tbody
 function limpiarHTML() {
